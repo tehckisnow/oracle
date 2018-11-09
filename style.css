@@ -1,0 +1,24 @@
+div {
+    border-style: solid;
+    border-color:black;
+    padding: 10px;
+    margin: 5px;
+    draggable: "true";
+}
+h1 {
+    margin: 0;
+    text-align: center;
+}
+h2 {
+    margin: 0;
+}
+p {
+    margin: 5;
+}
+#log_div {
+    /* float: left; */
+}
+#thread_div {
+    /* float: right; */
+}
+

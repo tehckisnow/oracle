@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title></title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Oracle</h1>
+        <div id="main_div">
+            <div id="thread_div">
+                <h2>Threads:</h2>
+                <div id="threads">
+                    
+                </div>
+                <input id="thread_input" onkeypress="enter(event, 'thread')">
+                <button id="thread_add" onclick="newThread('thread')">+</button>
+                <button id="thread_clear" onclick="clearAllThreads('thread')">x clear</button>
+            </div>
+            <div id="log_div">
+                <h2>Log:</h2>
+                <div id="logs">
+                    
+                </div>
+                <input id="log_input" onkeypress="enter(event, 'log')">
+                <button id="log_add" onclick="newThread('log')">+</button>
+                <button id="log_clear" onclick="clearAllThreads('log')">x clear</button>
+            </div>
+        </div>
+    </body>
+</html>
